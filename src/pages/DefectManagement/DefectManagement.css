@@ -1,0 +1,9 @@
+.defect-filters { margin-bottom: 14px; }
+
+.select--compact {
+  height: 34px;
+  min-width: 132px;
+  padding-inline: 8px;
+}
+
+.defect-filters .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }

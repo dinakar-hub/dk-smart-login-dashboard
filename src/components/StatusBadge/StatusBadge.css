@@ -1,0 +1,35 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  background: var(--pending-bg);
+  color: var(--pending);
+  white-space: nowrap;
+}
+
+.badge--passed,
+.badge--resolved,
+.badge--closed,
+.badge--published,
+.badge--completed { background: var(--passed-bg); color: var(--passed); }
+
+.badge--failed,
+.badge--critical,
+.badge--open { background: var(--failed-bg); color: var(--failed); }
+
+.badge--blocked,
+.badge--high { background: var(--blocked-bg); color: var(--blocked); }
+
+.badge--not-run,
+.badge--medium,
+.badge--draft,
+.badge--in-review { background: #eef3f8; color: #3e5874; }
+
+.badge--in-progress,
+.badge--low { background: #e7f3f8; color: #1d6384; }
+
+.badge--p1 { background: var(--failed-bg); color: var(--failed); }

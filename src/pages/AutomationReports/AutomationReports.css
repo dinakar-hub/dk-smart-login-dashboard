@@ -1,0 +1,11 @@
+.chart-frame--auto { height: 320px; }
+
+.suite-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 12px;
+  margin: 0;
+}
+
+.suite-facts dt { color: var(--muted); font-size: 12px; font-weight: 700; }
+.suite-facts dd { margin: 3px 0 0; font-size: 16px; font-weight: 700; }
